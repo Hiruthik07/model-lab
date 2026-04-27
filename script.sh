@@ -1,6 +1,11 @@
 #!/bin/bash
 
-for i in {1..10}
-do
-  echo $i
-done
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+sum=$((a + b))
+
+echo "Sum is: $sum"
